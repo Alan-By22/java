@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      /* 若需单边框，需要单独配置table
+        border-collapse 属性设置表格的边框是否被折叠成一个单一的边框或隔开 */
+      table {
+        border-collapse: collapse;
+      }
+      /*  th,td有独立的边界，显示为双边框，默认为黑色，所以需要配置像素和边框色，soild为边框 */
+      table,
+      th,
+      td {
+        border: 2px solid red; /*此处设置颜色为边框色*/
+      }
+      /* 定义100%的宽，50像素的th元素的高度 */
+      table {
+        width: 100%;
+      }
+      th {
+        height: 50px;
+      }
+      /* text-align设置水平对齐方式，向左向右或居中 */
+      td {
+        text-align: left;
+      }
+      /* vertical-align设置垂直方向，顶上，底部或是中间 */
+      td {
+        height: 50px;
+        vertical-align: bottom; /*bottom为底部*/
+      }
+      /* padding设置文字和边框之前的距离 */
+      td {
+        padding: 15px;
+      }
+      /* 设置文本背景色和文字颜色 */
+      th {
+        background-color: green;
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <!-- th为首行 -->
+        <th>First</th>
+        <th>second</th>
+        <th>third</th>
+      </tr>
+      <tr>
+        <td>lisi</td>
+        <td>wangwu</td>
+        <td>zhangmazi</td>
+      </tr>
+      <tr>
+        <td>peter</td>
+        <td>jone</td>
+        <td>jack</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.P1{
+    color: blue;
+}
+.P2{
+    color: brown;
+}
+.P3{
+    color: blueviolet;
+}
+.P4{
+    color: yellowgreen;
+}
+body{
+    background-image: url(../images/1.jpg);/*载入图片*/
+    width: 1000px;
+    height: 1000px;
+    text-align: center; /* 居中 */
+    padding: 200px;
+}
+

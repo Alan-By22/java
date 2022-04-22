@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <!-- css列表 -->
+    <!-- 以下是对列表进行优化  -->
+    <style>
+      ul.wuxu1 {
+        list-style-type: circle;
+        /*list-style-image: url(填写路径);*/     /*	将图像设置为列表项标志*/
+      }
+      /* 空心圆 */
+      ul.wuxu2 {
+        list-style-type: square;
+      }
+      /* 实心小方块 */
+      ol.youxu1 {
+        list-style-type: upper-roman;
+      }
+      /* I,II,III排序 */
+      ol.youxu2 {
+        list-style-type: lower-alpha;
+      }
+      /* a,b,c排序 */
+
+      /* 移除默认小圆点配置如下 */
+      /* ul.wuxu1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /*默认情况下列表 <ul> 或 <ol> 还设置了内边距和外边距，可使用 margin:0 和 padding:0 来移除*/
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- 默认配置为小圆点，移除默认小圆点需要上方配置 -->
+    <p>无序列表示例：</p>
+
+    <ul class="wuxu1">
+      <li>无序列表1</li>
+      <li>无序列表2</li>
+      <li>无序列表3</li>
+    </ul>
+
+    <ul class="wuxu2">
+      <li>无序列表1</li>
+      <li>无序列表2</li>
+      <li>无序列表3</li>
+    </ul>
+
+    <p>有序列表示例：</p>
+
+    <ol class="youxu1">
+      <li>有序列表1</li>
+      <li>有序列表2</li>
+      <li>有序列表3</li>
+    </ol>
+
+    <ol class="youxu2">
+      <li>有序列表1</li>
+      <li>有序列表2</li>
+      <li>有序列表3</li>
+    </ol>
+  </body>
+</html>
