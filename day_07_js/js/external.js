@@ -1,0 +1,1 @@
+document.write("<h1>这个是外部进入的</h1>")
