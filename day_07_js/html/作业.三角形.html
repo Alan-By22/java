@@ -8,9 +8,12 @@
     <script>
       for (var i = 1; i <= 5; i++) {
         //控制行数
+        for (var j = 1; j <= 6 - i; j++) {
+          document.write("&nbsp");
+        }
         for (var n = 1; n <= i; n++) {
           //控制个数
-          document.write("<span>*</span>");
+          document.write(" * ");
         }
         document.write("<br>");
       }
